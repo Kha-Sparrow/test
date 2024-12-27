@@ -8,8 +8,8 @@ body {
     background-color: #28a745;
     color: white;
     text-align: center;
-    padding: 20px;
-    font-size: 2em;
+    padding: 40px; /* Tăng padding để tạo không gian xung quanh tiêu đề */
+    font-size: 4em; /* Tăng kích thước phông chữ gấp đôi */
     font-weight: bold;
     margin-bottom: 20px;
 }
