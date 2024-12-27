@@ -1,5 +1,10 @@
 function updatePercent(slider, displayId) {
-    const value = slider.value; // Lấy giá trị hiện tại của thanh trượt
-    const displayElement = document.getElementById(displayId); // Tìm phần tử hiển thị
-    displayElement.textContent = `${value}%`; // Cập nhật nội dung hiển thị
+    const value = slider.value; // Lấy giá trị thanh trượt
+    console.log(`Value: ${value}, Display ID: ${displayId}`); // Debug thông tin
+    const displayElement = document.getElementById(displayId);
+    if (!displayElement) {
+        console.error(`Element with ID ${displayId} not found!`);
+        return;
+    }
+    displayElement.textContent = `${value}%`;
 }
