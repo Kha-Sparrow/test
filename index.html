@@ -3,70 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Result</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-        .container {
-            display: flex;
-            justify-content: space-between; /* Đảm bảo các card trải đều */
-            padding: 20px;
-            gap: 20px; /* Khoảng cách giữa các card */
-        }
-        .card {
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: 18%; /* Đảm bảo 5 card vừa một hàng */
-            box-sizing: border-box;
-            text-align: left; /* Căn lề trái */
-        }
-        .card h2 {
-            margin-top: 0;
-            font-size: 1.5em;
-            text-align: center; /* Tiêu đề thẻ vẫn căn giữa */
-        }
-        .card label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .card input, .card textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 1em;
-        }
-        .card input[type="range"] {
-            width: 100%;
-        }
-        .card .percent-display {
-            font-size: 1em;
-            font-weight: bold;
-            margin-top: 5px;
-        }
-        .card button {
-            background-color: #28a745;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1em;
-            width: 100%; /* Nút bấm rộng 100% card */
-        }
-        .card button:hover {
-            background-color: #218838;
-        }
-    </style>
+    <title>Group Member Information</title>
+    <link rel="stylesheet" href="result.css">
 </head>
 <body>
     <div class="container">
@@ -151,11 +89,6 @@
         </div>
     </div>
 
-    <script>
-        function updatePercent(rangeInput, percentDisplayId) {
-            const percentDisplay = document.getElementById(percentDisplayId);
-            percentDisplay.textContent = rangeInput.value + '%';
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
