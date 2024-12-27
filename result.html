@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Member Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+        }
+        .card h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+        .card label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .card input, .card textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        .card button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .card button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Card Template -->
+        <div class="card">
+            <h2>Member 1</h2>
+            <label for="name1">Họ và Tên:</label>
+            <input type="text" id="name1" name="name1" placeholder="Nhập họ và tên">
+
+            <label for="job1">Công việc:</label>
+            <input type="text" id="job1" name="job1" placeholder="Nhập công việc">
+
+            <label for="contribution1">Độ đóng góp:</label>
+            <textarea id="contribution1" name="contribution1" placeholder="Mô tả độ đóng góp"></textarea>
+
+            <button type="button">Lưu thông tin</button>
+        </div>
+        
+        <!-- Repeat for 5 members -->
+        <div class="card">
+            <h2>Member 2</h2>
+            <label for="name2">Họ và Tên:</label>
+            <input type="text" id="name2" name="name2" placeholder="Nhập họ và tên">
+
+            <label for="job2">Công việc:</label>
+            <input type="text" id="job2" name="job2" placeholder="Nhập công việc">
+
+            <label for="contribution2">Độ đóng góp:</label>
+            <textarea id="contribution2" name="contribution2" placeholder="Mô tả độ đóng góp"></textarea>
+
+            <button type="button">Lưu thông tin</button>
+        </div>
+
+        <div class="card">
+            <h2>Member 3</h2>
+            <label for="name3">Họ và Tên:</label>
+            <input type="text" id="name3" name="name3" placeholder="Nhập họ và tên">
+
+            <label for="job3">Công việc:</label>
+            <input type="text" id="job3" name="job3" placeholder="Nhập công việc">
+
+            <label for="contribution3">Độ đóng góp:</label>
+            <textarea id="contribution3" name="contribution3" placeholder="Mô tả độ đóng góp"></textarea>
+
+            <button type="button">Lưu thông tin</button>
+        </div>
+
+        <div class="card">
+            <h2>Member 4</h2>
+            <label for="name4">Họ và Tên:</label>
+            <input type="text" id="name4" name="name4" placeholder="Nhập họ và tên">
+
+            <label for="job4">Công việc:</label>
+            <input type="text" id="job4" name="job4" placeholder="Nhập công việc">
+
+            <label for="contribution4">Độ đóng góp:</label>
+            <textarea id="contribution4" name="contribution4" placeholder="Mô tả độ đóng góp"></textarea>
+
+            <button type="button">Lưu thông tin</button>
+        </div>
+
+        <div class="card">
+            <h2>Member 5</h2>
+            <label for="name5">Họ và Tên:</label>
+            <input type="text" id="name5" name="name5" placeholder="Nhập họ và tên">
+
+            <label for="job5">Công việc:</label>
+            <input type="text" id="job5" name="job5" placeholder="Nhập công việc">
+
+            <label for="contribution5">Độ đóng góp:</label>
+            <textarea id="contribution5" name="contribution5" placeholder="Mô tả độ đóng góp"></textarea>
+
+            <button type="button">Lưu thông tin</button>
+        </div>
+    </div>
+</body>
+</html>
